@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "69564",
+  "build": "78071",
   "category": ["in-game", "ui"],
   "context": "client",
-  "date": "2014/07/26",
+  "date": "2015/03/13",
   "description": "Enable use of the WIP custom formations by right-button drag with move command.",
   "display_name": "Enable Custom Formations",
   "forum": "https://forums.uberent.com/threads/rel-enable-custom-formations.62269/",
@@ -12,9 +12,12 @@
   "scenes": {
     "live_game": [
       "coui://ui/mods/enable_custom_formations/enable_custom_formations.js"
+    ],
+    "start": [
+      "coui://ui/mods/enable_custom_formations/warning.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
 
